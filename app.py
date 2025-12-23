@@ -101,8 +101,8 @@ for i in range(number_of_subjects):
         label="Credit",
         min_value=1.0,
         max_value=10.0,
-        value=4.0,
-        step=0.5,
+        value=3.0,
+        step=1.0,
         key=f"credit_{i}",
     )
 
@@ -114,5 +114,6 @@ if st.button("Calculate"):
     )
 
 
-st.markdown("Made by DK ")
+st.markdown("Made by DK🤍")
+
 
